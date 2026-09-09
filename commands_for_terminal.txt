@@ -1,0 +1,10 @@
+pip install pytest
+pip install --upgrade pip
+pip install -r requiremens.txt
+
+pytest      # aloita test
+pytest -v  # sisalta testissa
+pytest -s # test ja print
+pytest test_pytest.py #aloita tasta testista
+
+pytest --version # nauta versio testa
