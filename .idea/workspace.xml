@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58bd3cb5-6f49-4e53-9271-eb0fb24ad79f" name="Changes" comment="Start project">
-      <change afterPath="$PROJECT_DIR$/test/test_registation.py" afterDir="false" />
+    <list default="true" id="58bd3cb5-6f49-4e53-9271-eb0fb24ad79f" name="Changes" comment="RegestrationTests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_registation.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_registation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,9 +47,12 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python tests.Python tests for test_registation.TestRegistration.executor": "Run",
+    "Python tests.Python tests for test_registation.TestRegistration.test_registration_negative_duplicate_user.executor": "Run",
+    "Python tests.Python tests for test_registation.test_registration_negative_invalid_email.executor": "Run",
     "Python tests.Python tests in test_registation.py.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/vikto/PycharmProjects/QA88APIPhonebook",
@@ -67,7 +67,7 @@
       <recent name="C:\Users\vikto\PycharmProjects\QA88APIPhonebook" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_registation.TestRegistration">
+  <component name="RunManager" selected="Python tests.Python tests for test_registation.test_registration_negative_invalid_email">
     <configuration name="Python tests for test_registation.TestRegistration" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="QA88APIPhonebook" />
       <option name="ENV_FILES" value="" />
@@ -80,6 +80,36 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_registation.TestRegistration&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_registation.TestRegistration.test_registration_negative_duplicate_user" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="QA88APIPhonebook" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_registation.TestRegistration.test_registration_negative_duplicate_user&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_registation.test_registration_negative_invalid_email" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="QA88APIPhonebook" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_registation.test_registration_negative_invalid_email&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -100,8 +130,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_registation.TestRegistration" />
+        <item itemvalue="Python tests.Python tests for test_registation.test_registration_negative_invalid_email" />
         <item itemvalue="Python tests.Python tests in test_registation.py" />
+        <item itemvalue="Python tests.Python tests for test_registation.TestRegistration.test_registration_negative_duplicate_user" />
+        <item itemvalue="Python tests.Python tests for test_registation.TestRegistration" />
       </list>
     </recent_temporary>
   </component>
@@ -134,11 +166,19 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1788957378074</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL−00003" summary="RegestrationTests">
+      <option name="closed" value="true" />
+      <created>1789042805526</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1789042805526</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Start project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start project" />
+    <MESSAGE value="RegestrationTests" />
+    <option name="LAST_COMMIT_MESSAGE" value="RegestrationTests" />
   </component>
 </project>
